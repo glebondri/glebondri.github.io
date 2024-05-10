@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(15, 15, 15);
+    padding: 25px;
+}
+
+.article {
+    border-style: solid;
+    border-radius: 2px;
+    border-color: rgba(255, 255, 255, 60%);
+
+    padding-left: 25px;
+    padding-right: 25px;
+
+    margin-bottom: 30px;
+}
+
+/* article */
+.article > p, h1 {
+    color: rgb(255, 255, 235);
+    font-family: monospace;
+}
+
+.article > h1 {
+    font-size: 36px;
+}
+
+
+.article > p {
+    font-size: 30px;
+    padding-left: 20px;
+}
+/* */
+
+
+.article-title {
+
+    width: max-content;
+    height: 70px;
+
+    align-content: center;
+    margin-bottom: 15px;
+}
+
+.article-title > h1 {
+    color: rgb(255, 255, 235);
+    font-family: monospace;
+    font-size: 46px;
+    padding-left: 0;
+}
